@@ -12,10 +12,20 @@ class HomeView extends GetView<HomeController> {
         title: Text('HomeView'),
         centerTitle: true,
       ),
-      body: Center(
-        child: Text(
-          'HomeView is working With Disposeable controller',
-          style: TextStyle(fontSize: 20),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Center(
+          child: SizedBox(
+            child: StreamBuilder<Object>(
+              stream: null,
+              builder: (context, snapshot) {
+                return Text(
+                  'HomeView is working With Disposeable controller',
+                  style: TextStyle(fontSize: 20),
+                );
+              }
+            ),
+          ),
         ),
       ),
     );
