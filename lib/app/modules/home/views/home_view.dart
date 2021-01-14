@@ -14,7 +14,7 @@ class HomeView extends GetView<HomeController> {
       ),
       body: Center(
         child: Text(
-          'HomeView is working',
+          'HomeView is working With Disposeable controller',
           style: TextStyle(fontSize: 20),
         ),
       ),
