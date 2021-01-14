@@ -14,7 +14,7 @@ class Page1View extends GetView<Page1Controller> {
       ),
       body: Center(
         child: Text(
-          'Page1View is working',
+          'Page1View is working without controller dispose',
           style: TextStyle(fontSize: 20),
         ),
       ),
