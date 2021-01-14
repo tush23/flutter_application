@@ -1,3 +1,4 @@
+import 'package:flutter_application_for_git_profile/app/modules/home/controllers/home_controller.dart';
 import 'package:get/get.dart';
 
 import 'package:flutter_application_for_git_profile/app/modules/home/bindings/home_binding.dart';
@@ -12,7 +13,7 @@ class AppPages {
     GetPage(
       name: _Paths.HOME,
       page: () => HomeView(),
-      binding: HomeBinding(),
+      binding: BindingsBuilder.put(() => HomeController())
     ),
   ];
 }
