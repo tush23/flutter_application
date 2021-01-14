@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import 'package:flutter_application_for_git_profile/app/modules/dashboard/bindings/dashboard_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/dashboard/views/dashboard_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/bindings/home_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/controllers/home_controller.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/views/home_view.dart';
@@ -34,6 +36,11 @@ class AppPages {
       name: _Paths.SIGNUP,
       page: () => SignupView(),
       binding: SignupBinding(),
+    ),
+    GetPage(
+      name: _Paths.DASHBOARD,
+      page: () => DashboardView(),
+      binding: DashboardBinding(),
     ),
   ];
 }
