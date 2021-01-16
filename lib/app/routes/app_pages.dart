@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import 'package:flutter_application_for_git_profile/app/modules/dash/bindings/dash_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/dash/views/dash_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashboad/bindings/dashboad_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashboad/views/dashboad_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashboard/bindings/dashboard_binding.dart';
@@ -48,6 +50,11 @@ class AppPages {
       name: _Paths.DASHBOAD,
       page: () => DashboadView(),
       binding: DashboadBinding(),
+    ),
+    GetPage(
+      name: _Paths.DASH,
+      page: () => DashView(),
+      binding: DashBinding(),
     ),
   ];
 }
