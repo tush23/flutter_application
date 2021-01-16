@@ -11,6 +11,7 @@ abstract class Routes {
   static const DASHAMF = _Paths.DASHAMF;
   static const TRY_1 = _Paths.TRY_1;
   static const TR = _Paths.TR;
+  static const PROFILE = _Paths.PROFILE;
 }
 
 abstract class _Paths {
@@ -24,4 +25,5 @@ abstract class _Paths {
   static const DASHAMF = '/dashamf';
   static const TRY_1 = '/try-1';
   static const TR = '/tr';
+  static const PROFILE = '/profile';
 }
