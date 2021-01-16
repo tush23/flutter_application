@@ -1,16 +1,11 @@
 import 'package:get/get.dart';
 
 import 'package:flutter_application_for_git_profile/app/modules/dash/bindings/dash_binding.dart';
-import 'package:flutter_application_for_git_profile/app/modules/dash/bindings/dash_binding.dart';
-import 'package:flutter_application_for_git_profile/app/modules/dash/views/dash_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dash/views/dash_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashamf/bindings/dashamf_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashamf/views/dashamf_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashboad/bindings/dashboad_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashboad/views/dashboad_view.dart';
-import 'package:flutter_application_for_git_profile/app/modules/dashboard/bindings/dashboard_binding.dart';
-import 'package:flutter_application_for_git_profile/app/modules/dashboard/views/dashboard_view.dart';
-import 'package:flutter_application_for_git_profile/app/modules/home/bindings/home_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/controllers/home_controller.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/views/home_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/page1/bindings/page1_binding.dart';
@@ -47,11 +42,11 @@ class AppPages {
       page: () => SignupView(),
       binding: SignupBinding(),
     ),
-    GetPage(
-      name: _Paths.DASHBOARD,
-      page: () => DashboardView(),
-      binding: DashboardBinding(),
-    ),
+    // GetPage(
+    //   name: _Paths.DASHBOARD,
+    //   page: () => DashboardView(),
+    //   binding: DashboardBinding(),
+    // ),
     GetPage(
       name: _Paths.DASHBOAD,
       page: () => DashboadView(),
