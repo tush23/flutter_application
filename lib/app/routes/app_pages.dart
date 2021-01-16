@@ -14,6 +14,8 @@ import 'package:flutter_application_for_git_profile/app/modules/page_login/bindi
 import 'package:flutter_application_for_git_profile/app/modules/page_login/views/page_login_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/signup/bindings/signup_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/signup/views/signup_view.dart';
+import 'package:flutter_application_for_git_profile/app/modules/tr/bindings/tr_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/tr/views/tr_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/try_1/bindings/try_1_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/try_1/views/try_1_view.dart';
 
@@ -73,6 +75,11 @@ class AppPages {
       name: _Paths.TRY_1,
       page: () => Try1View(),
       binding: Try1Binding(),
+    ),
+    GetPage(
+      name: _Paths.TR,
+      page: () => TrView(),
+      binding: TrBinding(),
     ),
   ];
 }
