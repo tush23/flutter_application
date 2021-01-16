@@ -19,6 +19,8 @@ import 'package:flutter_application_for_git_profile/app/modules/page_login/bindi
 import 'package:flutter_application_for_git_profile/app/modules/page_login/views/page_login_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/signup/bindings/signup_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/signup/views/signup_view.dart';
+import 'package:flutter_application_for_git_profile/app/modules/try_1/bindings/try_1_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/try_1/views/try_1_view.dart';
 
 part 'app_routes.dart';
 
@@ -71,6 +73,11 @@ class AppPages {
       name: _Paths.DASHAMF,
       page: () => DashamfView(),
       binding: DashamfBinding(),
+    ),
+    GetPage(
+      name: _Paths.TRY_1,
+      page: () => Try1View(),
+      binding: Try1Binding(),
     ),
   ];
 }
