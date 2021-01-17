@@ -16,6 +16,8 @@ import 'package:flutter_application_for_git_profile/app/modules/page_login/bindi
 import 'package:flutter_application_for_git_profile/app/modules/page_login/views/page_login_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/profile/bindings/profile_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/profile/views/profile_view.dart';
+import 'package:flutter_application_for_git_profile/app/modules/sc/bindings/sc_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/sc/views/sc_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/scrollcontroler/bindings/scrollcontroler_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/scrollcontroler/views/scrollcontroler_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/scrolltester/bindings/scrolltester_binding.dart';
@@ -115,6 +117,11 @@ class AppPages {
       name: _Paths.SCROLLCONTROLER,
       page: () => ScrollcontrolerView(),
       binding: ScrollcontrolerBinding(),
+    ),
+    GetPage(
+      name: _Paths.SC,
+      page: () => ScView(),
+      binding: ScBinding(),
     ),
   ];
 }
