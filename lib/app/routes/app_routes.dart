@@ -17,6 +17,7 @@ abstract class Routes {
   static const HOME_CHILD = _Paths.HOME_CHILD;
   static const SCROLLCONTROLER = _Paths.SCROLLCONTROLER;
   static const SC = _Paths.SC;
+  static const HO = _Paths.HO;
 }
 
 abstract class _Paths {
@@ -36,4 +37,5 @@ abstract class _Paths {
   static const HOME_CHILD = '/home-child';
   static const SCROLLCONTROLER = '/scrollcontroler';
   static const SC = '/sc';
+  static const HO = '/ho';
 }

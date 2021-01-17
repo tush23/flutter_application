@@ -6,6 +6,8 @@ import 'package:flutter_application_for_git_profile/app/modules/dashamf/bindings
 import 'package:flutter_application_for_git_profile/app/modules/dashamf/views/dashamf_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashboad/bindings/dashboad_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashboad/views/dashboad_view.dart';
+import 'package:flutter_application_for_git_profile/app/modules/ho/bindings/ho_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/ho/views/ho_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/controllers/home_controller.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/views/home_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home_child/bindings/home_child_binding.dart';
@@ -122,6 +124,11 @@ class AppPages {
       name: _Paths.SC,
       page: () => ScView(),
       binding: ScBinding(),
+    ),
+    GetPage(
+      name: _Paths.HO,
+      page: () => HoView(),
+      binding: HoBinding(),
     ),
   ];
 }
