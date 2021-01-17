@@ -13,6 +13,7 @@ abstract class Routes {
   static const TR = _Paths.TR;
   static const PROFILE = _Paths.PROFILE;
   static const STORE = _Paths.STORE;
+  static const SCROLLTESTER = _Paths.SCROLLTESTER;
 }
 
 abstract class _Paths {
@@ -28,4 +29,5 @@ abstract class _Paths {
   static const TR = '/tr';
   static const PROFILE = '/profile';
   static const STORE = '/store';
+  static const SCROLLTESTER = '/scrolltester';
 }

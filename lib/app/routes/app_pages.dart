@@ -14,6 +14,8 @@ import 'package:flutter_application_for_git_profile/app/modules/page_login/bindi
 import 'package:flutter_application_for_git_profile/app/modules/page_login/views/page_login_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/profile/bindings/profile_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/profile/views/profile_view.dart';
+import 'package:flutter_application_for_git_profile/app/modules/scrolltester/bindings/scrolltester_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/scrolltester/views/scrolltester_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/signup/bindings/signup_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/signup/views/signup_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/store/bindings/store_binding.dart';
@@ -94,6 +96,11 @@ class AppPages {
       name: _Paths.STORE,
       page: () => StoreView(),
       binding: StoreBinding(),
+    ),
+    GetPage(
+      name: _Paths.SCROLLTESTER,
+      page: () => ScrolltesterView(),
+      binding: ScrolltesterBinding(),
     ),
   ];
 }
