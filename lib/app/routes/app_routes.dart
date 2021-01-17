@@ -12,6 +12,7 @@ abstract class Routes {
   static const TRY_1 = _Paths.TRY_1;
   static const TR = _Paths.TR;
   static const PROFILE = _Paths.PROFILE;
+  static const STORE = _Paths.STORE;
 }
 
 abstract class _Paths {
@@ -26,4 +27,5 @@ abstract class _Paths {
   static const TRY_1 = '/try-1';
   static const TR = '/tr';
   static const PROFILE = '/profile';
+  static const STORE = '/store';
 }
