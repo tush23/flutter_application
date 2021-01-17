@@ -1,8 +1,11 @@
 import 'package:get/get.dart';
 
-class HomeChildController extends GetxController {
+class ScrollcontrolerController extends GetxController {
+  //TODO: Implement ScrollcontrolerController
 
   final count = 0.obs;
+  @override
+  void onInit() {}
   @override
   void onReady() {}
   @override
