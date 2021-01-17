@@ -8,6 +8,8 @@ import 'package:flutter_application_for_git_profile/app/modules/dashboad/binding
 import 'package:flutter_application_for_git_profile/app/modules/dashboad/views/dashboad_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/controllers/home_controller.dart';
 import 'package:flutter_application_for_git_profile/app/modules/home/views/home_view.dart';
+import 'package:flutter_application_for_git_profile/app/modules/home_child/bindings/home_child_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/home_child/views/home_child_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/page1/bindings/page1_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/page1/views/page1_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/page_login/bindings/page_login_binding.dart';
@@ -101,6 +103,11 @@ class AppPages {
       name: _Paths.SCROLLTESTER,
       page: () => ScrolltesterView(),
       binding: ScrolltesterBinding(),
+    ),
+    GetPage(
+      name: _Paths.HOME_CHILD,
+      page: () => HomeChildView(),
+      binding: HomeChildBinding(),
     ),
   ];
 }
