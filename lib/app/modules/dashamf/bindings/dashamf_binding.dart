@@ -5,6 +5,7 @@ import 'package:flutter_application_for_git_profile/app/modules/dashamf/controll
 class DashamfBinding extends Bindings {
   @override
   void dependencies() {
+    print('Working');
     Get.lazyPut<DashamfController>(
       () => DashamfController(),
     );
