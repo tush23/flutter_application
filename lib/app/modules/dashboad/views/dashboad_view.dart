@@ -14,7 +14,7 @@ class DashboadView extends GetView<DashboadController> {
       ),
       body: Center(
         child: Text(
-          'DashboadView is working',
+          'DashboadView is',
           style: TextStyle(fontSize: 20),
         ),
       ),
