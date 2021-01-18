@@ -18,6 +18,7 @@ abstract class Routes {
   static const SCROLLCONTROLER = _Paths.SCROLLCONTROLER;
   static const SC = _Paths.SC;
   static const HO = _Paths.HO;
+  static const WORKER = _Paths.WORKER;
 }
 
 abstract class _Paths {
@@ -38,4 +39,5 @@ abstract class _Paths {
   static const SCROLLCONTROLER = '/scrollcontroler';
   static const SC = '/sc';
   static const HO = '/ho';
+  static const WORKER = '/worker';
 }

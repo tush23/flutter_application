@@ -32,6 +32,8 @@ import 'package:flutter_application_for_git_profile/app/modules/tr/bindings/tr_b
 import 'package:flutter_application_for_git_profile/app/modules/tr/views/tr_view.dart';
 import 'package:flutter_application_for_git_profile/app/modules/try_1/bindings/try_1_binding.dart';
 import 'package:flutter_application_for_git_profile/app/modules/try_1/views/try_1_view.dart';
+import 'package:flutter_application_for_git_profile/app/modules/worker/bindings/worker_binding.dart';
+import 'package:flutter_application_for_git_profile/app/modules/worker/views/worker_view.dart';
 
 part 'app_routes.dart';
 
@@ -129,6 +131,11 @@ class AppPages {
       name: _Paths.HO,
       page: () => HoView(),
       binding: HoBinding(),
+    ),
+    GetPage(
+      name: _Paths.WORKER,
+      page: () => WorkerView(),
+      binding: WorkerBinding(),
     ),
   ];
 }
