@@ -4,7 +4,7 @@ class HoController extends GetxController {
   final count = 0.obs;
   @override
   void onClose() {
-    super.onClose()
+    super.
   }
   void increment() => count.value++;
 }
