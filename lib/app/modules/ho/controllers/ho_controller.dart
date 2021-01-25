@@ -6,6 +6,7 @@ class HoController extends GetxController {
   void onClose() {
     super.onClose();
   }
+
   void increment() => count.value++;
 }
 //tushar dubey
