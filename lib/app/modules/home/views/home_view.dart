@@ -15,9 +15,10 @@ class HomeView extends GetView<HomeController> {
         padding: const EdgeInsets.all(8.0),
         child: Center(
           child: SizedBox(
-            
+
             child: StreamBuilder<Object>(
               stream: null,
+              
               builder: (context, snapshot) {
                 return Text(
                   'HomeView is working With Disposeable controller',
