@@ -18,10 +18,10 @@ class HomeView extends GetView<HomeController> {
 
             child: StreamBuilder<Object>(
               stream: null,
-              
+
               builder: (context, snapshot) {
                 return Text(
-                  'HomeView is working With Disposeable controller',
+                  'HomeView is not working si With Disposeable controller',
                   style: TextStyle(fontSize: 20),
                 );
               }
