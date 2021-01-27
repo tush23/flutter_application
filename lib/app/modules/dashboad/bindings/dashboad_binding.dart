@@ -3,7 +3,9 @@ import 'package:flutter_application_for_git_profile/app/modules/dashboad/control
 
 class DashboadBinding extends Bindings {
   @override
+
   void dependencies() {
+    
     Get.lazyPut<DashboadController>(
       () => DashboadController(),
     );

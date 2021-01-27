@@ -6,6 +6,7 @@ class DashamfBinding extends Bindings {
   @override
   void dependencies() {
     print('Working');
+    
     Get.lazyPut<DashamfController>(
       () => DashamfController(),
     );
