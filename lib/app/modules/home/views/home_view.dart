@@ -7,7 +7,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        
+
         title: Text('HomeView'),
         centerTitle: true,
       ),
@@ -15,6 +15,7 @@ class HomeView extends GetView<HomeController> {
         padding: const EdgeInsets.all(8.0),
         child: Center(
           child: SizedBox(
+            
             child: StreamBuilder<Object>(
               stream: null,
               builder: (context, snapshot) {
