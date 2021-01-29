@@ -9,8 +9,9 @@ class DashboadView extends GetView<DashboadController> {
     return Scaffold(
 
       appBar: AppBar(
-        title: Text('DashboadView'),
         
+        title: Text('DashboadView'),
+
         centerTitle: true,
       ),
       body: Center(
