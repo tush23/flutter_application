@@ -7,6 +7,7 @@ class DashboadView extends GetView<DashboadController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
         title: Text('DashboadView'),
         centerTitle: true,
