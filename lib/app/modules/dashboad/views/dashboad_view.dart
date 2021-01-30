@@ -9,7 +9,7 @@ class DashboadView extends GetView<DashboadController> {
       appBar: AppBar(
        
         title: Text('DashboadView'),
-       spaces removed1.0 centerTitle: true,
+        centerTitle: true,
       ),
       body: Center(
         child: Text(
