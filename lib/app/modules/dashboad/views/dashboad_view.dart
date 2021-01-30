@@ -8,8 +8,9 @@ class DashboadView extends GetView<DashboadController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-
+    
         title: Text('DashboadView'),
+
         centerTitle: true,
       ),
       body: Center(
