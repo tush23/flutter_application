@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_application_for_git_profile/app/modules/dashboad/controllers/dashboad_controller.dart';
 
+
 class DashboadView extends GetView<DashboadController> {
   @override
   Widget build(BuildContext context) {
