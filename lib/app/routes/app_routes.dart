@@ -39,5 +39,5 @@ abstract class _Paths {
   static const SCROLLCONTROLER = '/scrollcontroler';
   static const SC = '/sc';
   static const HO = '/ho';
-  static const WORKER = '/worker';
+  static const WORKER = '/worker'; 
 }
