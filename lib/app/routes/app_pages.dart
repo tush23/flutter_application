@@ -60,11 +60,6 @@ class AppPages {
       page: () => SignupView(),
       binding: SignupBinding(),
     ),
-    // GetPage(
-    //   name: _Paths.DASHBOARD,
-    //   page: () => DashboardView(),
-    //   binding: DashboardBinding(),
-    // ),
     GetPage(
       name: _Paths.DASHBOAD,
       page: () => DashboadView(),
