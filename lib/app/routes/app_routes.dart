@@ -20,7 +20,6 @@ abstract class Routes {
   static const HO = _Paths.HO;
   static const WORKER = _Paths.WORKER;
 }
-
 abstract class _Paths {
   static const HOME = '/home';
   static const PAGE1 = '/page1';
