@@ -20,7 +20,7 @@ class HomeView extends GetView<HomeController> {
 
               builder: (context, snapshot) {
                 return Text(
-                  'HomeView is not working si With Disposeable controller',
+                  'HomeView is not working si With Disposeable controller---',
                   style: TextStyle(fontSize: 10),
                 );
               }
